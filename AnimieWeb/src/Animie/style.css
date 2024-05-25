@@ -1,0 +1,168 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    height:  90px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+.sea input{
+    width: 300px;
+    height: 30px;
+}
+.container {
+    width: 100%;
+    height: 440px;
+    /* border: 2px solid green; */
+    display: flex;
+    margin-top: 100px;
+  }
+  
+  .Information {
+    height: 530px;
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 40px;
+   
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .animierow {
+    height: 445px;
+    width: 100%;
+    margin-left: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    width: 200px; 
+    height: 80%; 
+    border: 1px solid #ccc;
+    margin-right: 10px; 
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  }
+  
+  .card img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  .card p{
+    text-align: left;
+  }
+  .infoCard img{
+    flex: 0 0 auto;
+    width: 30%; 
+    height: 40%; 
+    padding-left: 40px;
+    text-align: center;
+  }
+  .infoCardName{
+    text-align: left;
+  }
+  .infoCard h3{
+    text-align: center;
+  }
+  
+  .card:hover .over{
+    height: 330px;
+    opacity: 1;
+  }
+  .infoCard{
+    height: 530px;
+    border: 2px solid green;
+    display: flex;
+ 
+  }
+  .infoCard img{
+    width: 350px;
+    height: 400px;
+   
+  }
+  .infoCardName{
+    margin-top: 10px;
+    margin-left: 200px;
+  }
+  .img img{
+   padding-left: 350px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  .favorites{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 8px;
+  }
+  .favorites>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  }
+  .fav{
+    width: 90%;
+    margin-left: 2%;
+    margin-bottom: 40px;
+  }
+  
+  .favorites img{
+    width: 300px;
+    height: 350px;
+  }
+  
+.tit{
+  color: chocolate;
+}
+.infoCardName h4{
+  color:purple;
+}
+.tcards{
+  color: darkgreen;
+}
+.title{
+  color: crimson;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 8px; 
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
